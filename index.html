@@ -1,0 +1,534 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8f6f1">
+  <meta name="description" content="Ayesha Anjum's developer portfolio, projects, skills, education and contact information.">
+  <title>Ayesha Anjum | Software Developer Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#home">AA<span>.</span></a>
+
+      <button class="menu-toggle" id="menu-toggle"
+        aria-label="Open navigation menu"
+        aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#certifications" class="nav-link">Achievements</a></li>
+        <li><a href="#contact" class="nav-link nav-contact">Contact ↗</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow"><span class="status-dot"></span> ASPIRING SOFTWARE DEVELOPER</p>
+
+          <h1>Hello, I'm<br><span class="accent-text">Ayesha Anjum.</span></h1>
+
+          <p class="hero-role">BCA Student · Software Development</p>
+
+          <p class="hero-description">
+            I am interested in building practical software, exploring
+            computer vision, and creating applications that address
+            real-world problems.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-dark" href="#projects">Explore my projects ↗</a>
+            <a class="button button-light" href="assets/resume.pdf" download="Ayesha-Anjum-Resume.pdf">Download resume ↓</a>
+          </div>
+
+          <div class="hero-meta">
+            <span>⌖ Bangalore, India</span>
+            <span>⌘ Software Development</span>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="photo-frame">
+            <div class="photo-placeholder" id="photo-placeholder" aria-hidden="true">AA</div>
+            <img src="assets/images/profile.png"
+              alt="Portrait of Ayesha Anjum"
+              class="profile-photo" id="profile-photo">
+          </div>
+          <div class="photo-caption">
+            <span class="caption-line"></span>
+            <span>Curiosity. Creativity. Code.</span>
+          </div>
+          <div class="decor decor-one"></div>
+          <div class="decor decor-two"></div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-cue">
+        <span>SCROLL TO EXPLORE</span><span class="scroll-arrow">↓</span>
+      </a>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section section-white" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">ABOUT ME</p>
+          <h2>Learning today. <span class="accent-text">Building for tomorrow.</span></h2>
+          <p class="section-intro">
+            A student developer working toward a career in software development.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-copy">
+            <h3>Driven by curiosity.<br>Growing through code.</h3>
+            <p>
+              I am Ayesha Anjum, pursuing a Bachelor of Computer Application
+              at SJES College Of Management Studies, with expected graduation
+              in 2027.
+            </p>
+            <p>
+              My interests include programming, web technologies, databases,
+              software design, artificial intelligence, and computer vision.
+              I enjoy learning how these technologies can be used to build
+              useful and user-focused applications.
+            </p>
+            <p>
+              My career goal is to begin in software development, gain
+              practical experience, collaborate with development teams,
+              and continue improving my technical and problem-solving skills.
+            </p>
+            <a class="text-link" href="assets/resume.pdf" download="Ayesha-Anjum-Resume.pdf">
+              Download my CV <span>↓</span>
+            </a>
+          </div>
+
+          <aside class="objective-card">
+            <span class="card-symbol">✳</span>
+            <p class="eyebrow">CAREER OBJECTIVE</p>
+            <h3>Learn with purpose. Build with impact.</h3>
+            <p>
+              To secure an opportunity where I can apply my programming
+              knowledge, contribute to practical software projects, and
+              grow into a capable software developer.
+            </p>
+            <div class="about-facts">
+              <div><span>Degree</span><strong>BCA</strong></div>
+              <div><span>Location</span><strong>Bangalore, India</strong></div>
+              <div><span>Graduation</span><strong>2027 (expected)</strong></div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS: PRIORITIZED SECTION -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">FEATURED WORK</p>
+          <h2>Projects that <span class="accent-text">solve problems.</span></h2>
+          <p class="section-intro">
+            A selection of my software and application concepts.
+            Repository and demo links can be added as each project becomes ready to share.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Featured final-year project -->
+          <article class="project-card">
+            <div class="project-visual project-visual-civic">
+              <span class="project-index">PROJECT 01</span>
+              <div class="civic-graphic" aria-hidden="true">
+                <div class="document-sheet">
+                  <span class="doc-seal">✓</span>
+                  <span class="doc-line"></span>
+                  <span class="doc-line"></span>
+                  <span class="doc-line short"></span>
+                  <span class="doc-check">✓</span>
+                </div>
+                <div class="floating-dot dot-a"></div>
+                <div class="floating-dot dot-b"></div>
+              </div>
+              <span class="visual-label">FEATURED · FINAL-YEAR PROJECT</span>
+            </div>
+
+            <div class="project-body">
+              <p class="project-category">WEB APPLICATION · CIVIC TECHNOLOGY</p>
+              <h3>Government Registration Assistance System</h3>
+              <p>
+                A project designed to help users understand government
+                registration procedures, required documents, and next steps.
+              </p>
+              <p>
+                Planned features include document checklists, document storage,
+                registration guidance, and application tracking.
+              </p>
+              <div class="tag-list project-tags">
+                <span>HTML5</span><span>CSS3</span>
+                <span>JavaScript</span><span>SQLite (planned)</span>
+              </div>
+              <p class="project-meta">
+                <strong>Role:</strong> Student project developer
+              </p>
+              <p class="project-meta">
+                <strong>Status:</strong> In development
+              </p>
+              <p class="project-note">
+                Live demo and project repository links will be added when available.
+              </p>
+            </div>
+          </article>
+
+          <!-- Second project -->
+          <article class="project-card">
+            <div class="project-visual project-visual-medical">
+              <span class="project-index">PROJECT 02</span>
+              <div class="medical-graphic" aria-hidden="true">
+                <span class="medical-cross">+</span>
+                <span class="lung-shape lung-left"></span>
+                <span class="lung-shape lung-right"></span>
+              </div>
+              <span class="visual-label">AI · HEALTHCARE</span>
+            </div>
+
+            <div class="project-body">
+              <p class="project-category">MACHINE LEARNING · COMPUTER VISION</p>
+              <h3>Pneumonia Detection Using Chest X-rays</h3>
+              <p>
+                A machine-learning project exploring the classification of
+                chest X-ray images for pneumonia detection.
+              </p>
+              <p>
+                The application is being developed with an image-upload interface
+                and a backend API for connecting the prediction model.
+              </p>
+              <div class="tag-list project-tags">
+                <span>Python</span><span>TensorFlow</span>
+                <span>FastAPI</span><span>OpenCV</span>
+              </div>
+              <p class="project-meta">
+                <strong>Role:</strong> Student project developer
+              </p>
+              <p class="project-meta">
+                <strong>Status:</strong> In development
+              </p>
+              <p class="project-note">
+                Live demo and project repository links will be added when available.
+              </p>
+              <p class="project-note">
+                Educational prototype only; not a substitute for professional medical diagnosis.
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <div class="project-guidance">
+          <strong>More projects coming soon</strong>
+          <p>
+            Add up to six strong projects as they are completed. For each one,
+            include a real screenshot, repository URL, working demo when available,
+            and a clear description of your own contribution.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section section-white" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">TECHNICAL TOOLKIT</p>
+          <h2>Skills & <span class="accent-text">technologies.</span></h2>
+          <p class="section-intro">
+            Technologies and concepts I have explored through learning and projects.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <span class="skill-number">01</span>
+            <h3>Programming Languages</h3>
+            <div class="tag-list"><span>Python</span><span>Java</span><span>C/C++</span></div>
+          </article>
+          <article class="skill-card">
+            <span class="skill-number">02</span>
+            <h3>Developer Tools</h3>
+            <div class="tag-list"><span>Git</span><span>GitHub</span><span>VS Code</span></div>
+          </article>
+          <article class="skill-card">
+            <span class="skill-number">03</span>
+            <h3>Web Technologies</h3>
+            <div class="tag-list"><span>HTML5</span><span>CSS3</span><span>Streamlit</span></div>
+          </article>
+          <article class="skill-card">
+            <span class="skill-number">04</span>
+            <h3>AI & Computer Vision</h3>
+            <div class="tag-list">
+              <span>OpenCV</span><span>InsightFace</span><span>ONNX Runtime</span>
+              <span>Face Recognition</span><span>Computer Vision</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <span class="skill-number">05</span>
+            <h3>Software Development</h3>
+            <div class="tag-list">
+              <span>Software Architecture & Design</span>
+              <span>UI/UX Design Principles</span>
+              <span>User-Centric Application Development</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <span class="skill-number">06</span>
+            <h3>Databases</h3>
+            <div class="tag-list"><span>SQLite</span><span>SQL</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">ACADEMIC BACKGROUND</p>
+          <h2>Education & <span class="accent-text">growth.</span></h2>
+        </div>
+
+        <article class="education-card">
+          <div class="education-icon" aria-hidden="true">✳</div>
+          <div class="education-details">
+            <p class="eyebrow">UNDERGRADUATE DEGREE</p>
+            <h3>Bachelor of Computer Application (BCA)</h3>
+            <p class="institution">SJES College Of Management Studies</p>
+            <p class="education-description">
+              Expected graduation: 2027. Add your verified percentage or CGPA here when ready.
+            </p>
+          </div>
+          <div class="education-year">
+            <span class="year-label">EXPECTED</span>
+            <strong>2027</strong>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS & ACHIEVEMENTS -->
+    <section class="section section-white" id="certifications">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">CONTINUOUS LEARNING</p>
+          <h2>Certifications & <span class="accent-text">achievements.</span></h2>
+          <p class="section-intro">
+            Relevant courses, workshops, internships, hackathons, and achievements.
+          </p>
+        </div>
+
+        <div class="certifications-grid">
+          <article class="certification-card">
+            <p class="eyebrow">DATA ANALYTICS</p>
+            <h3>Data Analytics</h3>
+            <p>
+              <strong>Provider:</strong>
+              NoviTech R&amp;D Private Limited
+            </p>
+            <p>
+              <strong>Dates:</strong>
+              August 4 – September 8, 2025
+            </p>
+            <p class="project-note">
+              Certificate link not added yet.
+            </p>
+          </article>
+
+          <article class="certification-card">
+            <p class="eyebrow">WORKSHOP</p>
+            <h3>Cyber Security Workshop</h3>
+            <p><strong>Date:</strong> November 3, 2025</p>
+            <p class="project-note">
+              Organizer and certificate link can be added when confirmed.
+            </p>
+          </article>
+
+          <article class="certification-card">
+            <p class="eyebrow">JOB SIMULATION</p>
+            <h3>Cyber Security Job Simulation</h3>
+            <p><strong>Provider:</strong> Forage</p>
+            <p><strong>Date:</strong> July 23, 2025</p>
+            <p class="project-note">
+              Completion link not added yet.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- OPTIONAL BLOG & TESTIMONIALS -->
+    <section class="section" id="writing">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">BEYOND THE CODE</p>
+          <h2>Writing & <span class="accent-text">recommendations.</span></h2>
+          <p class="section-intro">
+            Technical articles and genuine recommendations can be featured here as they become available.
+          </p>
+        </div>
+
+        <div class="optional-grid">
+          <article class="optional-card">
+            <span class="optional-icon">↗</span>
+            <h3>Blog & Articles</h3>
+            <p>
+              Share technical explanations, project learnings, or useful development notes.
+            </p>
+            <span class="link-placeholder">Articles can be added later</span>
+          </article>
+
+          <article class="optional-card">
+            <span class="optional-icon">“</span>
+            <h3>Testimonials</h3>
+            <p>
+              Add a recommendation from a professor, mentor, or project collaborator with their permission.
+            </p>
+            <span class="link-placeholder">Recommendations can be added later</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section-dark" id="contact">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-copy">
+            <p class="eyebrow">LET'S CONNECT</p>
+            <h2>Have an opportunity?<br><span>Let's talk.</span></h2>
+            <p>
+              I welcome conversations about software development internships,
+              collaborative projects, and opportunities to learn and grow.
+            </p>
+
+            <div class="contact-detail">
+              <span class="contact-icon" aria-hidden="true">✉</span>
+              <div>
+                <span class="detail-label">EMAIL</span>
+                <a href="mailto:aishanjum010@gmail.com">aishanjum010@gmail.com</a>
+              </div>
+              <button type="button" class="copy-button" id="copy-email">Copy</button>
+            </div>
+
+            <div class="contact-detail">
+              <span class="contact-icon" aria-hidden="true">⌖</span>
+              <div>
+                <span class="detail-label">LOCATION</span>
+                <span>Bangalore, India</span>
+              </div>
+            </div>
+
+            <div class="professional-links">
+              <p class="detail-label">PROFESSIONAL PROFILES</p>
+              <a
+                href="https://github.com/aish-anjum"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit my GitHub profile"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://www.linkedin.com/in/ayesha-anjum-b9b223245"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit my LinkedIn profile"
+              >
+                LinkedIn
+              </a>
+            </div>
+
+            <a class="button button-cream resume-contact"
+              href="assets/resume.pdf" download="Ayesha-Anjum-Resume.pdf">
+              Download my resume ↓
+            </a>
+          </div>
+
+          <form class="contact-form" id="contact-form" novalidate>
+            <h3>Send a message</h3>
+            <p class="form-intro">Fill in the details below to prepare an email.</p>
+
+            <div class="form-field">
+              <label for="name">Your name</label>
+              <input type="text" id="name" name="name"
+                placeholder="Enter your name" autocomplete="name"
+                minlength="2" maxlength="80" required>
+              <small class="field-error" id="name-error"></small>
+            </div>
+
+            <div class="form-field">
+              <label for="sender-email">Your email</label>
+              <input type="email" id="sender-email" name="email"
+                placeholder="you@example.com" autocomplete="email"
+                maxlength="254" required>
+              <small class="field-error" id="email-error"></small>
+            </div>
+
+            <div class="form-field">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject"
+                placeholder="Internship opportunity" minlength="3"
+                maxlength="120" required>
+              <small class="field-error" id="subject-error"></small>
+            </div>
+
+            <div class="form-field">
+              <label for="message">Your message</label>
+              <textarea id="message" name="message" rows="4"
+                placeholder="Tell me how we can connect..." minlength="10"
+                maxlength="3000" required></textarea>
+              <small class="field-error" id="message-error"></small>
+            </div>
+
+            <button type="submit" class="button button-cream form-submit">
+              Prepare email ↗
+            </button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+            <p class="form-note">
+              This form opens your email application. It does not send or store messages directly.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="logo footer-logo" href="#home">AA<span>.</span></a>
+      <p>Designed and built with care by Ayesha Anjum.</p>
+      <a href="#home" class="back-to-top">Back to top ↑</a>
+    </div>
+    <div class="container copyright">
+      <span>© <span id="current-year"></span> Ayesha Anjum</span>
+      <span>Personal Portfolio · Bangalore, India</span>
+    </div>
+  </footer>
+</body>
+</html>
